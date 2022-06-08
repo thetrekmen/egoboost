@@ -7,12 +7,12 @@ function promptForUsername(username = "stranger") {
     return username
 }
 
-//this is out inventory for our egoBoost program
+//this is our inventory for our egoBoost program test
 const prefix = ["you"];
 const middle = ["look great","will have a great day"];
 const suffix = ["today!"," "];
 
-//created a random number generator for selecting a random string from each of our arrays above.
+//created a random number generator for selecting a random element from each of our arrays above.
 let rngPrefix = Math.floor(Math.random() * prefix.length);
 let rngMiddle = Math.floor(Math.random() * middle.length);
 let rngSuffix = Math.floor(Math.random() * suffix.length);
